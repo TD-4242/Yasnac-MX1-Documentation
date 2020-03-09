@@ -1,0 +1,40 @@
+CNC Configuration Sheet
+Yasnac MX1/LX1
+CNC Parameters:
+
+You will need to verify all parameters listed below that correspond to your CNC control.  These parameters may not match your particular machine’s control.  Document (Phone camera) original settings before making modifications!
+
+To set parameters:
+Set Thumbwheel switch located above the Reader to 1. (Enable)
+Press PRM.
+Cursor down to parameter, press INSRT.
+Cursor across to desired bit.
+Press WR to toggle bit value.
+Press INSRT.
+
+When complete, return thumbwheel switch to 0.
+Power cycle the control to make changes permanent.
+
+Parameter Bits from Left to Right:  D7, D6, D5, D4, D3, D2, D1, D0
+6000 D7 = 1 Outputs ISO data (0=EIA)
+6003 D7 = 1 Tape Device uses COMM Module (0=PTR)
+6003 D6 = 0 Device Designation RS232C (1=RS422)
+6003 D5, D4 = 0,1 Output port number is RS232 #1 (1,0 = RS232 #2)
+6003 D3 = 0 EOB is set to LF only (1=CRLF)
+6003 D1, D0 = 0, 1 Input port number is RS232 #1 (1,0 = RS232 #2)  
+6022 D1, D0 = 0,0 Parity enabled for Input/Output
+
+6026 are Input parameters for RS232 #1
+6027 are Input parameters for RS232 #2
+6028 are Output parameters for RS232 #1
+6029 are Output parameters for RS232 #2
+
+D5 = 0 Control codes are used (1=Not used)
+D4 = 0 Stop Bits set to 1 (1=2 stop Bits)
+D3->D0 sets Baud Rate
+1010 = 9600
+1001 = 4800
+0111 = 1200
+0110 = 600
+0101 = 300
+0010 = 110 CNC Configuration Sheet
