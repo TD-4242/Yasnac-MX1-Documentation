@@ -1,0 +1,16 @@
+1. Spindle cuts out dead at ~900RPM in low ~2700RPM in high
+   Closest documentation I've found says 3500RPM max
+   low/high parameter is 1350
+   
+2. Selecting and switching to the same tool twice give the desired tool +2
+   T4M6
+   T4M6
+   will give me T6
+   
+3. Recommended oil for automatic oiler
+
+4. Any Manuals 
+   Series 10/S.E./MX1
+   64-06-1483
+
+5. General capabilities of machine (documentation?)
