@@ -1,4 +1,6 @@
-Set Parameter 6046.2 & 6038.3 =1
+Set Parameter 
+  6046 D2 = 1 
+  6038 D3 = 1
 
 In order to set these "hidden" parameters you must dump
 the current parameters and modify the decimal equivelent
