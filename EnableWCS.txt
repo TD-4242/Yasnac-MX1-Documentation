@@ -8,7 +8,7 @@ they will be all blank.
 1. Pres PRM, go to edit mode, set DNC to recieve file
 2. Pres OUT, save file
 3. Edit file and find #6038 and #6046
-   In my case:
+   In my case: (your numbers may be different)
      #6038 = 146
      #6046 = 0
 4. Convert these decimal values to binary (google search for binary converter if you don't know how)
@@ -29,3 +29,4 @@ they will be all blank.
 10. Power off and on the Control head. (After the load head was unresponsive for me)
 11. repeate steps 1&2 and verify that the parameters are as expected. 
 12. Test setting WCS offset G54-G59, reset with G52
+    you should no longer see alarm "020 - PROG ERROR (G)"
