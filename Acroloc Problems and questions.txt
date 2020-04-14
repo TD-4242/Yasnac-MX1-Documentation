@@ -1,6 +1,12 @@
 1. Spindle cuts out dead at ~900RPM in low ~2700RPM in high
    Closest documentation I've found says 3500RPM max
    low/high parameter is 1350
+
+Possible the motor is replaced/undersized.
+check/clean tach with pencil eraser at 200rpm
+inspect brushes
+check ohms on tach for major change
+
    
 2. Selecting and switching to the same tool twice give the desired tool +2
    T4M6
@@ -14,3 +20,8 @@
    64-06-1483
 
 5. General capabilities of machine (documentation?)
+
+6. Spindle speed RPM gage about .1% off 2678 instead of 2700
+
+
+tech ohms across lead
